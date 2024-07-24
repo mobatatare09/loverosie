@@ -3,6 +3,18 @@
 .bg-color-name-title {
     background-color: rgb(0, 0, 0);
 }
+.ui-menu-color-home {
+background-color: blue;
+}
+.ui-menu-color-resume {
+    background-color: blue;
+    }
+    .ui-menu-color-contact {
+        background-color: blue;
+        }
+        .ui-menu-color-download {
+            background-color: blue;
+            }
 /*Header*/
 header {
     margin: 0;
@@ -36,4 +48,14 @@ margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: rgb(255, 255, 255);
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menucontainer {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
